@@ -1,0 +1,15 @@
+{
+  "name": "Izzy",
+  "version": "1.0.0",
+  "main": "izzy.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "reconlx": "^1.2.41",
+    "simple-chat-bot": "^2.0.2",
+    "util": "^0.12.3"
+  }
+}
