@@ -20,6 +20,7 @@ yarn add
    PipSearch: "izpip",//search a pip package
    NodeFetch: "izfetch", //fetch data and desplay json
    DjsDocs: "izdocs", //fetches Discord.js Docs
+   Eval: "izeval" //only for js , developers ace card
    //More comming soon :D
  }
 ```
