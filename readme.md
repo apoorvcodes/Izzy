@@ -29,5 +29,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## About me
+
+<img src=“https://cdn.discordapp.com/attachments/828653963083251793/829221730010005544/carbon.png”> 
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
