@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const config = require("../json/izzy.json")
 module.exports = {
     name: "calc",
-    description: "simple ",
+    description: "simple calculator",
 
     async run (client, message, args) {
       let signos = ["*","/","+","-","x","~"];
