@@ -16,13 +16,12 @@ yarn add
  const Izzy = {
    Help: "izhelp", //A help menu
    Chat: "izzy hi", //start chatting to bot
-   NpmSearch: "iznpm" //search a npm package 
-   PipSearch: "izpip" //search a pip package
-   NodeFetch: "izfetch" //fetch data and desplay json
+   NpmSearch: "iznpm", //search a npm package 
+   PipSearch: "izpip",//search a pip package
+   NodeFetch: "izfetch", //fetch data and desplay json
+   DjsDocs: "izdocs", //fetches Discord.js Docs
+   //More comming soon :D
  }
-     
-          
-      
 ```
 
 ## Contributing
