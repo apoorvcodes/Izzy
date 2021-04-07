@@ -14,7 +14,11 @@ yarn add
 
 ```javascript
  const Izzy = {
-   Help: "izhelp",
+   Help: "izhelp", //A help menu
+   Chat: "izzy hi", //start chatting to bot
+   NpmSearch: "iznpm" //search a npm package 
+   PipSearch: "izpip" //search a pip package
+   NodeFetch: "izfetch" //fetch data and desplay json
  }
      
           
