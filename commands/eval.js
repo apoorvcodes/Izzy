@@ -19,6 +19,8 @@ module.exports = {
         message.channel.send(`\`ERROR\` \`\`\`xl\n${(err)}\n\`\`\``);
       }
     
+      messager.channel.send("lol ")
+    
 
      
     }
