@@ -10,7 +10,7 @@ module.exports = {
       return message.channel.send("You do not have enough permissions!");
       let user =
       message.mentions.members.first() ||
-      message.guild.members.cache.get(args[0]);
+      client.members.cache.get(args[0]);
       if (!user)
       return message.channel.send(
         `You did not mention a user, or you gave an invalid id`
