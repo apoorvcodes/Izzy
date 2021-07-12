@@ -6,20 +6,21 @@ module.exports = {
 
     async run (client, message, args) {
 
-      if(message.author.id !== config.ownerID) return;
-      try {
-        const code = args.join(" ");
-        let evaled = eval(code);
-  
-        if (typeof evaled !== "string")
-          evaled = require("util").inspect(evaled);
-  
-        message.channel.send((evaled), {code:"xl"});
-      } catch (err) {
-        message.channel.send(`\`ERROR\` \`\`\`xl\n${(err)}\n\`\`\``);
-      }
-    
+    if(message.author.id !== "803491655515635763") return;
+    try {
+      const code = args.join(" ");
+      let evaled = eval(code);
 
+      if (typeof evaled !== "string")
+        evaled = require("util").inspect(evaled);
+
+      message.channel.send((evaled), {code:"xl"});
+    } catch (err) {
+      message.channel.send(`\`ERROR\` \`\`\`xl\n${(err)}\n\`\`\``);
+    }
+  
+
+  
      
     }
 }
